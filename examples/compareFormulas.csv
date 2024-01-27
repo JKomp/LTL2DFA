@@ -1,0 +1,9 @@
+Name,Description,Formula
+'1',test1,F(G(p -> X(q))) & G(r -> (F(!s)))
+'2',test2,G(p -> (X(q) & G(r -> F(!s))))
+'3',test3,F(G(p -> X(q))) & G(r -> (F(s)))
+'4',test4,F(G((p -> X(q))) & G((r -> F(s))))
+'5',test5,G((p | (q & r)) → X((s) U (t & u)))
+'6',test6,G((p | (q & r)) → ((s)U (t & u)))
+'7',test7,G(g -> p) & G(p->g) & F(!p) & G(a->p) & G(b->p) & G(c->p)& GFa & GFb & GFc  & (a -> X c)  & G(a -> !b) & G(b->!a) & G((b )U (!b | a)) & GF(p & !a & !b & !c)
+'8',test8,G(p -> g) & G(g -> p) & F(!p) & G(p-> (a | b | c)) & G(a -> X(c) & G(!a | !b) & G(b -> X(!a)) ∧ F(!a | !b | !c))
