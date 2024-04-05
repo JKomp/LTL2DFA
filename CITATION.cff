@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Komp"
+  given-names: "John"
+  orcid: "https://orcid.org/0009-0009-7856-8433"
+title: "LTL2DFA Trace Generation Tool"
+version: 1.0.0
+date-released: 2024-01-31
+url: "https://github.com/JKomp/LTL2DFA"
